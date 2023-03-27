@@ -1,0 +1,155 @@
+<!DOCTYPE html>　
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML&CSS 実践</title>
+  <meta name="description" content="JISSENでは、高品質な美容脱毛サービスを提供しています。">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--OGP-->
+  <meta property="og:title" content="脱毛メンズサロン JISSEN">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="img/service.jpeg">
+  <meta property="og:description" content="JISSENでは、高品質な美容脱毛サービスを提供しています。">
+  <meta property="og:site_name" content="脱毛メンズサロン JISSEN">
+
+  <!--icon-->
+  <link rel="icon" href="">
+  <link rel="apple-touch-icon" sizes="" href="">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!--JS-->
+</head>
+
+<body>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#price">価格</a></li>
+          <li><a href="#access">アクセス</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+        <div class="top_wrap">
+          <div class="atack">
+            <h1>ヒゲや体毛が気にならない<br>日常を手に入れませんか？</h1>
+            <p>毎朝の髭剃りが面倒…</p>
+            <p>体毛が気になっておしゃれを楽しめない…</p>
+            <p>清潔感のある自分に生まれ変わりたい…</p>
+            <h2>そんな悩みを私たちで全て解決します！</h2>
+          </div>
+          <div class="salon_name">
+            <h1>メンズ専門脱毛サロン</h1>
+            <p>月額料金900円～</p>
+          </div>
+        </div>
+      </section>
+      <section id="service">
+        <h2 class="section_title">サービス</h2>
+        <div class="service_wrap">
+          <div class="service_left">
+            <img src="img/service.jpeg" alt="サービス画像">
+          </div>
+          <div class="service_right">
+            <div class="service_detail">
+              <h3>自社で厳選した機材で施術します！</h3>
+              <p>2本のランプで照射力をアップしたハイパワーケア。<br>お肌にやさしい肌刺激カットフィルターも搭載。<br>磨き上げられたプロの技術でムラなく綺麗に、そして安心安全の施術を提供します！</p>
+            </div>
+            <div class="campaign">
+              <h3>新春割引キャンペーン</h3>
+              <p>※ 以下条件のすべてを満たした場合に新春キャンペーンの適用となります。</p>
+              <hr>
+              <p>個人契約のお客さまであること<br> 3回以上通うことができる方<br> 成人した男性の方</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="news">
+        <h2 class="section_title">ニュース</h2>
+        <div class="news_wrap">
+          <p>2021/1/1 新年のご挨拶</p>
+          <p>2020/12/31 年末年始の店舗休業案内</p>
+          <p>2020/8/23 お盆休みによる店舗の休業案内</p>
+        </div>
+      </section>
+      <section id="price">
+        <h2 class="section_title">価格</h2>
+        <div class="price_wrap">
+          <table>
+            <tr>
+              <th>ー</th>
+              <th>ヒゲ脱毛コース</th>
+              <th>全身脱毛コース</th>
+            </tr>
+            <tr>
+              <td>入会金</td>
+              <td>10万円</td>
+              <td>15万円</td>
+            </tr>
+            <tr>
+              <td>料金</td>
+              <td>９００円/月</td>
+              <td>１５００円/月</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="access">
+        <h2 class="section_title">アクセス</h2>
+        <div class="access_wrap">
+          <p>住所：XXXX</p>
+          <img src="#" alt="所在地がわかる地図" class="map">
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="section_title">お問い合わせ</h2>
+        <div class="contact_wrap">
+          <p>お電話、またはメッセージフォームよりお気軽にご相談下さい。</p>
+          <p>TEL : XXXX-XX-XXXX </p>
+        </div>
+        <form class="form" method="post">
+          <h1>メッセージフォーム</h1>
+          <div>
+            <label for="name">氏名:</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+          <div>
+            <label for="mail">メールアドレス:</label>
+            <input type="email" id="mail" name="user_mail">
+          </div>
+          <div>
+            <label for="tel">電話番号:</label>
+            <input type="tel" id="tel" name="user_tel">
+          </div>
+          <div>
+            <label for="msg">内容:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div class="button_submit">
+            <button class="button" type="submit">送信</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <div>
+        <small>© 2021 CODESTAR All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</body>
+
+</html>
